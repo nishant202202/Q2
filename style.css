@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    width: 70%;
+    height: 70vh;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 5%;
+}
+.container h1{
+    text-align: center;
+}
+
+.container
+.boxex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .boxex .box{
+    width: 250px;
+    height: 350px;
+    border: 2px solid slateblue;
+}
+.container .boxex .box h2{
+    text-align: center;
+}
+
+.container .boxex .box button{
+    width: 90%;
+    height: 40px;
+    background: lightblue;
+    margin-left: 4.5%;
+    cursor: pointer;
+}
+
+
+.container .boxex .box button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+}
+.temp
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
